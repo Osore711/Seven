@@ -1,0 +1,9 @@
+# Write a Python program to multiplies all the items in a list.
+# a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+def multiply_items(a):
+    mult = 1
+    for i in a:
+        mult = mult*i
+    return mult
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+print(multiply_items(a))
